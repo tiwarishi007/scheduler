@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'corsheaders'
+    'corsheaders',
     'accounts',
 ]
 
@@ -130,3 +130,4 @@ STATIC_URL = 'static/'
 
 CORS_ALLOW_ALL_ORIFINS = True
 
+AUTH_USER_MODEL = 'accounts.CustomUser'
